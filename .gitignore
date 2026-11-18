@@ -1,0 +1,13 @@
+# secrets
+.env
+*.env
+*.key
+*.pem
+*credentials*
+*secret*
+
+# work that must not be published before its debrief
+private/
+
+# raw screenshots: crop/blur before moving them into a run folder
+screenshots-raw/
