@@ -1,0 +1,551 @@
+rule_id,name,version,severity,prebuilt
+"6756ee27-9152-479b-9b73-54b5bbda301c","Rare Connection to WebDAV Target",12,"medium",true
+"0d8ad79f-9025-45d8-80c1-4f0cd3c5e8e5","Execution of File Written or Modified by Microsoft Office",116,"high",true
+"f036953a-4615-4707-a1ca-dc53bf69dcd5","Unusual Child Processes of RunDLL32",215,"high",true
+"b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e","Potential Account Takeover - Mixed Logon Types",4,"medium",true
+"ff4599cb-409f-4910-a239-52e4e6f532ff","LSASS Process Access via Windows API",21,"medium",true
+"a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d","Potential Account Takeover - Logon from New Source IP",4,"medium",true
+"4027f24e-b02f-4605-872f-7bafd8fe1b33","Potential AMSI Bypass via RPC Runtime Hooking",2,"high",true
+"f9abcddc-a05d-4345-a81d-000b79aa5525","Potential PowerShell Obfuscation via High Numeric Character Proportion",13,"low",true
+"ad84d445-b1ce-4377-82d9-7c633f28bf9a","Suspicious Portable Executable Encoded in Powershell Script",218,"medium",true
+"61ac3638-40a3-44b2-855a-985636ca985e","PowerShell Suspicious Discovery Related Windows API Functions",321,"low",true
+"d43f2b43-02a1-4219-8ce9-10929a32a618","Potential PowerShell Obfuscation via Backtick-Escaped Variable Expansion",12,"high",true
+"ac96ceb8-4399-4191-af1d-4feeac1f1f46","Potential Invoke-Mimikatz PowerShell Script",217,"critical",true
+"2553a9af-52a4-4a05-bb03-85b2a479a0a0","Potential PowerShell HackTool Script by Author",111,"high",true
+"92984446-aefb-4d5e-ad12-598042ca80ba","PowerShell Suspicious Script with Clipboard Retrieval Capabilities",215,"medium",true
+"c124dc1b-cef2-4d01-8d74-ff6b0d5096b6","PowerShell Script with Windows Defender Tampering Capabilities",109,"medium",true
+"b8386923-b02c-4b94-986a-d223d9b01f88","PowerShell Invoke-NinjaCopy script",114,"high",true
+"5c602cba-ae00-4488-845d-24de2b6d8055","PowerShell Script with Veeam Credential Access Capabilities",109,"medium",true
+"959a7353-1129-4aa7-9084-30746b256a70","PowerShell Suspicious Script with Screenshot Capabilities",215,"high",true
+"02a4576a-7480-4284-9327-548a806b5e48","Potential Credential Access via DuplicateHandle in LSASS",313,"medium",true
+"81fe9dc6-a2d7-4192-a2d8-eed98afc766a","PowerShell Suspicious Payload Encoded and Compressed",321,"high",true
+"54a81f68-5f2a-421e-8eed-f888278bb712","Exchange Mailbox Export via PowerShell",216,"medium",true
+"a8b2c4d6-e8f0-12a4-b6c8-d0e2f4a6b8c0","Newly Observed ScreenConnect Host Server",5,"high",true
+"feeed87c-5e95-4339-aef1-47fd79bcfbe3","MS Office Macro Security Registry Modifications",314,"medium",true
+"11dd9713-0ec6-4110-9707-32daae1ee68c","PowerShell Script with Token Impersonation Capabilities",120,"medium",true
+"951779c2-82ad-4a6c-82b8-296c1f691449","Potential PowerShell Pass-the-Hash/Relay Script",111,"high",true
+"1f0a69c0-3392-4adf-b7d5-6012fd292da8","Potential Antimalware Scan Interface Bypass via PowerShell",119,"high",true
+"a2d04374-187c-4fd9-b513-3ad4e7fdd67a","PowerShell Mailbox Collection Script",114,"medium",true
+"7ba58110-ae13-439b-8192-357b0fcfa9d7","Suspicious LSASS Access via MalSecLogon",313,"high",true
+"cb9554e8-9f31-41a8-b4f5-d82144e6dc33","Azure Run Command Script Child Process",2,"medium",true
+"d117cbb4-7d56-41b4-b999-bdf8c25648a0","Symbolic Link to Shadow Copy Created",320,"medium",true
+"b43570de-a908-4f7f-8bdb-b2df6ffd8c80","Code Signing Policy Modification Through Built-in tools",217,"medium",true
+"47e22836-4a16-4b35-beee-98f6c4ee9bf2","Suspicious Remote Registry Access via SeBackupPrivilege",219,"medium",true
+"2f2f4939-0b34-40c2-a0a3-844eb7889f43","PowerShell Suspicious Script with Audio Capture Capabilities",218,"high",true
+"2e0051cb-51f8-492f-9d90-174e16b5e96b","Potential File Transfer via Curl for Windows",9,"low",true
+"a640ef5b-e1da-4b17-8391-468fdbd1b517","Execution via GitHub Actions Runner",6,"medium",true
+"6fa0f15b-1926-419b-8de2-fce1429797ba","Suspicious SeIncreaseBasePriorityPrivilege Use",4,"high",true
+"45ac4800-840f-414c-b221-53dd36a5aaf7","Windows Event Logs Cleared",217,"low",true
+"cde1bafa-9f01-4f43-a872-605b678968b0","Potential PowerShell HackTool Script by Function Names",222,"medium",true
+"64f17c52-6c6e-479e-ba72-236f3df18f3d","Potential PowerShell Obfuscation via Invalid Escape Sequences",13,"medium",true
+"bd2c86a0-8b61-4457-ab38-96943984e889","PowerShell Keylogging Script",220,"high",true
+"eb610e70-f9e6-4949-82b9-f1c5bcd37c39","PowerShell Kerberos Ticket Request",219,"high",true
+"577ec21e-56fe-4065-91d8-45eb8224fe77","PowerShell MiniDump Script",215,"high",true
+"d93e61db-82d6-4095-99aa-714988118064","NTDS Dump via Wbadmin",210,"medium",true
+"7eb54028-ca72-4eb7-8185-b6864572347db","System File Ownership Change",5,"medium",true
+"56f2e9b5-4803-4e44-a0a4-a52dc79d57fe","PowerShell PSReflect Script",319,"high",true
+"882a39ad-a404-45e3-b5d4-bc11d2b09818","Potential DNS Exfiltration via Excessive Chunked Queries",2,"medium",true
+"b661f86d-1c23-4ce7-a59e-2edbdba28247","Potential Veeam Credential Access Command",211,"medium",true
+"f27228e4-0792-4681-a965-9937ed6e4e00","Multiple Credential Access by VS Code or Cursor IDE Descendant",1,"high",true
+"17c7f6a5-5bc9-4e1f-92bf-13632d24384d","Renamed Utility Executed with Short Program Name",219,"medium",true
+"acd611f3-2b93-47b3-a0a3-7723bcc46f6d","Potential Command and Control via Internet Explorer",112,"medium",true
+"aa9a274d-6b53-424d-ac5e-cb8ca4251650","Remotely Started Services via RPC",219,"medium",true
+"71c5cb27-eca5-4151-bb47-64bc3f883270","Suspicious RDP ActiveX Client Loaded",215,"medium",true
+"d72e33fc-6e91-42ff-ac8b-e573268c5a87","Command Execution via SolarWinds Process",321,"medium",true
+"b29ee2be-bf99-446c-ab1a-2dc0183394b8","Network Connection via Compiled HTML File",215,"low",true
+"94a401ba-4fa2-455c-b7ae-b6e037afc0b7","Group Policy Discovery via Microsoft GPResult Utility",217,"low",true
+"79f0a1f7-ed6b-471c-8eb1-23abd6470b1c","Potential File Transfer via Certreq",218,"medium",true
+"7e23dfef-da2c-4d64-b11d-5f285b638853","Microsoft Management Console File from Unusual Path",317,"medium",true
+"f81ee52c-297e-46d9-9205-07e66931df26","Microsoft Exchange Worker Spawning Suspicious Processes",317,"high",true
+"e3cf38fa-d5b8-46cc-87f9-4a7513e4281d","Connection to Commonly Abused Free SSL Certificate Providers",212,"low",true
+"ca98c7cf-a56e-4057-a4e8-39603f7f0389","Unsigned DLL Side-Loading from a Suspicious Folder",16,"medium",true
+"c5c9f591-d111-4cf8-baec-c26a39bc31ef","Potential Credential Access via Renamed COM+ Services DLL",215,"high",true
+"4c59cff1-b78a-41b8-a9f1-4231984d1fb6","PowerShell Share Enumeration Script",117,"high",true
+"aaab30ec-b004-4191-95e1-4a14387ef6a6","Veeam Backup Library Loaded by Unusual Process",7,"medium",true
+"f909075d-afc7-42d7-b399-600b94352fd9","Untrusted DLL Loaded by Azure AD Connect Authentication Agent",108,"high",true
+"9ccf3ce0-0057-440a-91f5-870c6ad39093","Command Shell Activity Started via RunDLL32",316,"low",true
+"a3ea12f3-0d4e-4667-8b44-4230c63f3c75","Execution via local SxS Shared Module",316,"medium",true
+"99ac5005-8a9e-4625-a0af-5f7bb447204b","Potential Kerberos SPN Spoofing via Suspicious DNS Query",4,"high",true
+"9f432a8b-9588-4550-838e-1f77285580d3","Dynamic IEX Reconstruction via Method String Access",13,"low",true
+"9960432d-9b26-409f-972b-839a959e79e2","Potential Credential Access via LSASS Memory Dump",315,"high",true
+"0e42f920-047d-4568-b961-2a50db6c4713","Potential Persistence via Mandatory User Profile",4,"medium",true
+"027ff9ea-85e7-42e3-99d2-bbb7069e02eb","Potential Cookies Theft via Browser Debugging",212,"medium",true
+"58c6d58b-a0d3-412d-b3b8-0981a9400607","Potential Privilege Escalation via InstallerFileTakeOver",117,"high",true
+"210d4430-b371-470e-b879-80b7182aa75e","Mofcomp Activity",13,"low",true
+"665e7a4f-c58e-4fc6-bc83-87a7572670ac","WebServer Access Logs Deleted",212,"medium",true
+"4d169db7-0323-4157-9ad3-ea5ece9019c9","Potential NetNTLMv1 Downgrade Attack",6,"medium",true
+"1d276579-3380-4095-ad38-e596a01bc64f","Remote File Download via Script Interpreter",218,"medium",true
+"483832a8-ffdd-4e11-8e96-e0224f7bda9b","New USB Storage Device Mounted",102,"low",true
+"79543b00-28a5-4461-81ac-644c4dc4012f","Execution of a Downloaded Windows Script",407,"medium",true
+"ff46eb26-0684-4da3-9dd6-21032c9878e1","Active Directory Discovery using AdExplorer",4,"low",true
+"9c260313-c811-4ec8-ab89-8f6530e0246c","Hosts File Modified",215,"medium",true
+"c57f8579-e2a5-4804-847f-f2732edc5156","Potential Remote Desktop Shadowing Activity",317,"high",true
+"f8822053-a5d2-46db-8c96-d460b12c36ac","Potential Active Directory Replication Account Backdoor",112,"medium",true
+"06a7a03c-c735-47a6-a313-51c354aef6c3","Enumerating Domain Trusts via DSQUERY.EXE",216,"low",true
+"852c1f19-68e8-43a6-9dce-340771fe1be3","Suspicious PowerShell Engine ImageLoad",218,"medium",true
+"a495b1a1-69f1-423d-836b-08f13175eb49","AWS Audit or Security Service Tampering via CLI",1,"high",true
+"290aca65-e94d-403b-ba0f-62f320e63f51","UAC Bypass Attempt via Windows Directory Masquerading",324,"high",true
+"04443c0e-9f23-4b61-996b-d8d6b0263bd2","PKINIT Followed by Same-Principal U2U Service Ticket",2,"medium",true
+"47595dea-452b-4d37-b82d-6dd691325139","Credential Access via TruffleHog Execution",5,"medium",true
+"1d0cf8ae-ed2c-4c74-bc01-462cfd928b64","Suspicious Child Process of PaperCut Server Component",2,"high",true
+"feba48f6-40ca-4d04-b41f-5dfa327de865","Data Encrypted via OpenSSL Utility",3,"low",true
+"1327384f-00f3-44d5-9a8c-2373ba071e92","Persistence via Scheduled Job Creation",418,"medium",true
+"b5877334-677f-4fb9-86d5-a9721274223b","Clearing Windows Console History",321,"medium",true
+"3a59fc81-99d3-47ea-8cd6-d48d561fca20","Potential DNS Tunneling via NsLookup",318,"medium",true
+"035889c4-2686-4583-a7df-67f89c292f2c","High Number of Process and/or Service Terminations",219,"medium",true
+"1542fa53-955e-4330-8e4d-b2d812adeb5f","Execution from a Removable Media with Network Connection",8,"low",true
+"e2f9fdf5-8076-45ad-9427-41e0e03dc9c2","Suspicious Process Execution via Renamed PsExec Executable",220,"medium",true
+"610949a1-312f-4e04-bb55-3a79b8c95267","Unusual Process Network Connection",214,"low",true
+"689b9d57-e4d5-4357-ad17-9c334609d79a","Scheduled Task Created by a Windows Script",213,"medium",true
+"f9790abf-bd0c-45f9-8b5f-d0b74015e029","Privileged Accounts Brute Force",121,"medium",true
+"51ce96fb-9e52-4dad-b0ba-99b54440fc9a","Incoming DCOM Lateral Movement with MMC",214,"high",true
+"77c476eb-6a49-402a-a561-267ae66daa5e","Cloud Offensive Framework Execution",2,"medium",true
+"074464f9-f30d-4029-8c03-0ed237fffec7","Remote Desktop Enabled in Windows Firewall by Netsh",319,"medium",true
+"c82c7d8f-fb9e-4874-a4bd-fd9e3f9becf1","SMB Connections via LOLBin or Untrusted Process",119,"medium",true
+"b29b7652-219f-468b-aa1f-5da7bcc24b03","Potential Traffic Tunneling using QEMU",4,"medium",true
+"8c81e506-6e82-4884-9b9a-75d3d252f967","Potential SharpRDP Behavior",114,"high",true
+"a13167f1-eec2-4015-9631-1fee60406dcf","InstallUtil Process Making Network Connections",213,"medium",true
+"e760c72b-bb1f-44f0-9f0d-37d51744ee75","Unusual Execution via Microsoft Common Console File",209,"high",true
+"f0493cb4-9b15-43a9-9359-68c23a7f2cf3","Suspicious HTML File Creation",114,"medium",true
+"12f07955-1674-44f7-86b5-c35da0a6f41a","Suspicious Cmd Execution via WMI",323,"high",true
+"02bab13d-fb14-4d7c-b6fe-4a28874d37c5","Potential Ransomware Note File Dropped via SMB",10,"high",true
+"2917d495-59bd-4250-b395-c29409b76086","Web Shell Detection: Script Process Child of Common Web Processes",427,"high",true
+"b53f1d73-150d-484d-8f02-222abeb5d5fa","Kubernetes Direct API Request via Curl or Wget",105,"medium",true
+"45d273fb-1dca-457d-9855-bcb302180c21","Encrypting Files with WinRar or 7z",221,"medium",true
+"208dbe77-01ed-4954-8d44-1e5751cb20de","LSASS Memory Dump Handle Access",219,"medium",true
+"cff92c41-2225-4763-b4ce-6f71e5bda5e6","Execution from Unusual Directory - Command Line",323,"medium",true
+"ecc0cd54-608e-11ef-ab6d-f661ea17fbce","Suspicious Instance Metadata Service (IMDS) API Command Line Execution",10,"medium",true
+"6ea41894-66c3-4df7-ad6b-2c5074eb3df8","Potential Windows Error Manager Masquerading",216,"medium",true
+"9a5b4e31-6cde-4295-9ff7-6be1b8567e1b","Suspicious Explorer Child Process",316,"medium",true
+"1aa9181a-492b-4c01-8b16-fa0735786b2b","User Account Creation",318,"low",true
+"5cd8e1f7-0050-4afc-b2df-904e40b2f5ae","User Added to Privileged Group in Active Directory",218,"medium",true
+"483c4daf-b0c6-49e0-adf3-0bfa93231d6b","Microsoft Exchange Server UM Spawning Suspicious Processes",319,"medium",true
+"d33ea3bf-9a11-463e-bd46-f648f2a0f4b1","Remote Windows Service Installed",115,"medium",true
+"f97504ac-1053-498f-aeaa-c6d01e76b379","Browser Extension Install",211,"low",true
+"ebf1adea-ccf2-4943-8b96-7ab11ca173a5","IIS HTTP Logging Disabled",319,"high",true
+"ee7726cc-babc-4885-988c-f915173ac0c0","Suspicious Execution from a WebDav Share",5,"high",true
+"c3d4e5f6-a7b8-9012-cdef-123456789abc","GenAI Process Performing Encoding/Chunking Prior to Network Activity",6,"medium",true
+"b86afe07-0d98-4738-b15d-8d7465f95ff5","Network Connection via MsXsl",213,"low",true
+"e516bf56-d51b-43e8-91ec-9e276331f433","Network Activity to a Suspicious Top Level Domain",8,"high",true
+"6839c821-011d-43bd-bd5b-acff00257226","Image File Execution Options Injection",316,"medium",true
+"818e23e6-2094-4f0e-8c01-22d30f3506c6","PowerShell Script Block Logging Disabled",318,"medium",true
+"3bc6deaa-fbd4-433a-ae21-3e892f95624f","NTDS or SAM Database File Copied",322,"high",true
+"bb8dac47-0271-4000-b4e3-1bfc75eec5c4","First Time Seen RMM Signer Across the Environment",2,"medium",true
+"0b96dfd8-5b8c-4485-9a1c-69ff7839786a","Attempt to Establish VScode Remote Tunnel",113,"medium",true
+"a4f7a295-aba1-4382-9c00-f7b02097acbc","Suspicious SolarWinds Web Help Desk Java Module Load or Child Process",6,"high",true
+"9edd1804-83c7-4e48-b97d-c776b4c97564","PowerShell Obfuscation via Negative Index String Reversal",13,"low",true
+"7b75c162-d439-472d-b39f-2eb0d4d2d318","Potential EDR-Freeze via WerFaultSecure Abuse",2,"high",true
+"2de87d72-ee0c-43e2-b975-5f0b029ac600","Wireless Credential Dumping using Netsh Command",218,"high",true
+"fd70c98a-c410-42dc-a2e3-761c71848acf","Suspicious CertUtil Commands",319,"medium",true
+"da4f56b8-9bc5-4003-a46c-d23616fbc691","PANW and Elastic Defend - Command and Control Correlation",3,"medium",true
+"4ed678a9-3a4f-41fb-9fea-f85a6e0a0dff","Suspicious Script Object Execution",215,"medium",true
+"3aaf37f3-05a1-40a5-bb6e-e380c4f92c52","WDAC Policy File by an Unusual Process",8,"high",true
+"fdaac5ff-b336-4c59-a80f-4755208589f6","Shares accessed outside business hours",1,"high",false
+"2c6a6acf-0dcb-404d-89fb-6b0327294cfa","Potential Foxmail Exploitation",210,"high",true
+"eda499b8-a073-4e35-9733-22ec71f57f3a","AdFind Command Activity",321,"low",true
+"482a5584-4ce4-4838-b806-0839a39b004f","Potential Tunneling via Tailscaled",2,"medium",true
+"a4c7473a-5cb4-4bc1-9d06-e4a75adbc494","Windows Registry File Creation in SMB Share",115,"medium",true
+"1dcc51f6-ba26-49e7-9ef4-2655abb2361e","UAC Bypass via DiskCleanup Scheduled Task Hijack",319,"medium",true
+"7dc45430-7407-4790-b89e-c857c3f6bf23","Potential Execution via FileFix Phishing Attack",6,"high",true
+"4fe9d835-40e1-452d-8230-17c147cafad8","Execution via TSClient Mountpoint",321,"high",true
+"b41a13c6-ba45-4bab-a534-df53d0cfed6a","Suspicious Endpoint Security Parent Process",323,"medium",true
+"11ea6bec-ebde-4d71-a8e9-784948f8e3e9","Third-party Backup Files Deleted via Unexpected Process",218,"medium",true
+"cd82e3d6-1346-4afd-8f22-38388bbf34cb","Downloaded URL Files",10,"medium",true
+"c9482bfa-a553-4226-8ea2-4959bd4f7923","Potential Masquerading as Communication Apps",14,"medium",true
+"856a31f9-7869-4a5f-aca8-275a77629f19","Potential ClickFix Command via Windows Run Dialog",3,"high",true
+"e052c845-48d0-4f46-8a13-7d0aba05df82","KRBTGT Delegation Backdoor",215,"high",true
+"5ab49127-b1b3-46e6-8a38-9e8512a2a363","ROT Encoded Python Script Execution",7,"medium",true
+"7f370d54-c0eb-4270-ac5a-9a6020585dc6","Suspicious WMIC XSL Script Execution",215,"medium",true
+"757371cd-5e9e-4adb-bc4e-d81f0ad0ec4d","Mark-of-the-Web Removal by an Unusual Process",3,"low",true
+"15c0b7a7-9c34-4869-b25b-fa6518414899","Remote File Download via Desktopimgdownldr Utility",321,"medium",true
+"c8cccb06-faf2-4cd5-886e-2c9636cfcb87","Disabling Windows Defender Security Settings via PowerShell",320,"medium",true
+"c4818812-d44f-47be-aaef-4cfb2f9cc799","Suspicious Print Spooler File Deletion",314,"medium",true
+"e4e31051-ee01-4307-a6ee-b21b186958f4","Service Creation via Local Kerberos Authentication",215,"high",true
+"c0136397-f82a-45e5-9b9f-a3651d77e21a","GenAI Process Accessing Sensitive Files",11,"high",true
+"93e4f644-3941-4a47-bafa-86bd972e7c92","SIGMA - Potential Data Exfiltration Activity Via CommandLine Tools",1,"high",false
+"5cf6397e-eb91-4f31-8951-9f0eaa755a31","Persistence via PowerShell profile",216,"medium",true
+"9c951837-7d13-4b0c-be7a-f346623c8795","Potential Enumeration via Active Directory Web Service",8,"medium",true
+"2d62889e-e758-4c5e-b57e-c735914ee32a","Command and Scripting Interpreter via Windows Scripts",212,"high",true
+"a624863f-a70d-417f-a7d2-7a404638d47f","Suspicious MS Office Child Process",321,"medium",true
+"1dee0500-4aeb-44ca-b24b-4a285d7b6ba1","Suspicious Inter-Process Communication via Outlook",14,"medium",true
+"c0429aa8-9974-42da-bfb6-53a0a515a145","Creation or Modification of a new GPO Scheduled Task or Service",317,"low",true
+"203ab79b-239b-4aa5-8e54-fc50623ee8e4","Creation or Modification of Root Certificate",318,"low",true
+"4ae94fc1-f08f-419f-b692-053d28219380","Connection to Common Large Language Model Endpoints",8,"medium",true
+"d8b2f85a-cf1c-40fc-acf0-bb5d588a8ea6","Potential REMCOS Trojan Execution",4,"high",true
+"cd9e640b-25ea-4fa6-b11c-5440c09b097c","SIGMA - Browser Started with Remote Debugging",1,"medium",false
+"fc7b9873-a9ed-43af-a9a2-c37660c4a211","Shell or Suspicious Process Spawned by Ray Worker",1,"medium",true
+"97fc44d3-8dae-4019-ae83-298c3015600f","Startup or Run Key Registry Modification",125,"low",true
+"61766ef9-48a5-4247-ad74-3349de7eb2ad","Interactive Logon by an Unusual Process",110,"high",true
+"ce64d965-6cb0-466d-b74f-8d2c76f47f05","New ActiveSyncAllowedDeviceID Added via PowerShell",319,"medium",true
+"9aa0e1f6-52ce-42e1-abb3-09657cee2698","Scheduled Tasks AT Command Enabled",317,"medium",true
+"78de1aeb-5225-4067-b8cc-f4a1de8a8546","Suspicious ScreenConnect Client Child Process",317,"medium",true
+"1a3f2a4c-12d0-4b88-961a-2711ee295637","Potential System Tampering via File Modification",6,"high",true
+"9d110cb3-5f4b-4c9a-b9f5-53f0a1707ae6","Microsoft Build Engine Started an Unusual Process",322,"low",true
+"a0939500-a817-4ce9-85a9-191133352a9e","Claude Cowork VM Boot Image Tamper",4,"medium",true
+"2856446a-34e6-435b-9fb5-f8f040bfa7ed","Account Discovery Command via SYSTEM Account",217,"low",true
+"25224a80-5a4a-4b8a-991e-6ab390465c4f","Lateral Movement via Startup Folder",316,"high",true
+"8c37dc0e-e3ac-4c97-8aa0-cf6a9122de45","Unusual Child Process of dns.exe",323,"high",true
+"dd34b062-b9e3-4a6b-8c0c-6c8ca6dd450e","Attempt to Install or Run Kali Linux via WSL",218,"high",true
+"be70614d-4295-473c-a953-582aef41c865","Potential Data Exfiltration Through Curl",12,"medium",true
+"1cd01db9-be24-4bef-8e7c-e923f0ff78ab","Incoming Execution via WinRM Remote Shell",215,"medium",true
+"1b5e9d4a-7c2f-4e8b-a3d6-0f9c8e2b1a4d","Remote Management Access Launch After MSI Install",6,"medium",true
+"263481c8-1e9b-492e-912d-d1760707f810","Potential Computer Account NTLM Relay Activity",114,"medium",true
+"053a0387-f3b5-4ba5-8245-8002cca2bd08","Suspicious Microsoft Antimalware Service Execution",220,"high",true
+"46b01bb5-cff2-4a00-9f87-c041d9eab554","Browser Process Spawned from an Unusual Parent",5,"high",true
+"2dba3edf-1e23-4ead-a76f-458ef2060d24","Azure WireServer Unusual Process Connection",2,"medium",true
+"0ef5d3eb-67ef-43ab-93b7-305cfa5a21f6","Sensitive Audit Policy Sub-Category Disabled",110,"medium",true
+"c5ce48a6-7f57-4ee8-9313-3d0024caee10","Installation of Custom Shim Databases",317,"medium",true
+"6e9130a5-9be6-48e5-943a-9628bfc74b18","AdminSDHolder Backdoor",217,"high",true
+"ab75c24b-2502-43a0-bf7c-e60e662c811e","Remote Execution via File Shares",124,"medium",true
+"f44fa4b6-524c-4e87-8d9e-a32599e4fb7c","Persistence via Microsoft Office AddIns",316,"high",true
+"d563aaba-2e72-462b-8658-3e5ea22db3a6","Privilege Escalation via Windir Environment Variable",317,"high",true
+"61d29caf-6c15-4d1e-9ccb-7ad12ccc0bc7","AdminSDHolder SDProp Exclusion Added",220,"high",true
+"8cd49fbc-a35a-4418-8688-133cc3a1e548","Proxy Execution via Windows OpenSSH",4,"high",true
+"37cb6756-8892-4af3-a6bd-ddc56db0069d","Disabling Lsa Protection via Registry Modification",8,"high",true
+"53a26770-9cbd-40c5-8b57-61d01a325e14","Suspicious PDF Reader Child Process",320,"low",true
+"84da2554-e12a-11ec-b896-f661ea17fbcd","Enumerating Domain Trusts via NLTEST.EXE",220,"low",true
+"a1699af0-8e1e-4ed0-8ec1-89783538a061","Windows Subsystem for Linux Distribution Installed",216,"medium",true
+"1178ae09-5aff-460a-9f2f-455cd0ac4d8e","UAC Bypass via Windows Firewall Snap-In Hijack",319,"medium",true
+"205b52c4-9c28-4af4-8979-935f3278d61a","Werfault ReflectDebugger Persistence",210,"low",true
+"2e1e835d-01e5-48ca-b9fc-7a61f7f11902","Renamed Automation Script Interpreter",220,"high",true
+"ac5a2759-5c34-440a-b0c4-51fe674611d6","Outlook Home Page Registry Modification",210,"high",true
+"d703a5af-d5b0-43bd-8ddb-7a5d500b7da5","Modification of WDigest Security Provider",218,"high",true
+"da87eee1-129c-4661-a7aa-57d0b9645fad","Suspicious Service was Installed in the System",121,"medium",true
+"54815014-5a9f-42a3-bb11-ed5770920347","SIGMA - MSHTA Execution With Suspicious Extension or Inline VBScript",1,"high",false
+"20316b48-9356-41f3-a6a1-eccd78f99233","SIGMA - Suspicious Query of MachineGUID via reg.exe",1,"low",false
+"baa5d22c-5e1c-4f33-bfc9-efa73bb53022","Suspicious Image Load (taskschd.dll) from MS Office",215,"low",true
+"c2d90150-0133-451c-a783-533e736c12d7","Mshta Making Network Connections",214,"medium",true
+"043d80a3-c49e-43ef-9c72-1088f0c7b278","Potential Escalation via Vulnerable MSI Repair",208,"high",true
+"6e1a2cc4-d260-11ed-8829-f661ea17fbcc","First Time Seen Remote Monitoring and Management Tool",120,"medium",true
+"0859355c-0f08-4b43-8ff5-7d2a4789fc08","First Time Seen Removable Device",215,"low",true
+"dc9c1f74-dac3-48e3-b47f-eb79db358f57","Volume Shadow Copy Deletion via WMIC",319,"high",true
+"00140285-b827-4aee-aa09-8113f58a08f3","Potential Credential Access via Windows Utilities",323,"high",true
+"44fc462c-1159-4fa8-b1b7-9b6296ab4f96","Multiple Vault Web Credentials Read",117,"medium",true
+"feafdc51-c575-4ed2-89dd-8e20badc2d6c","Potential Masquerading as Business App Installer",12,"low",true
+"57bc9e8d-9054-472c-9752-4aa91dc4cd49","Newly Observed RC4 Kerberos Service Ticket Request",2,"medium",true
+"f92171ed-a4d3-4baa-98f9-4df1652cb11b","Potential Secret Scanning via Gitleaks",4,"medium",true
+"9d110cb3-5f4b-4c9a-b9f5-53f0a1707ae4","Microsoft Build Engine Using an Alternate Name",221,"low",true
+"39157d52-4035-44a8-9d1a-6f8c5f580a07","Downloaded Shortcut Files",8,"medium",true
+"48f657ee-de4f-477c-aa99-ed88ee7af97a","Remote XSL Script Execution via COM",9,"low",true
+"5d676480-9655-4507-adc6-4eec311efff8","Unsigned DLL loaded by DNS Service",109,"medium",true
+"0e79980b-4250-4a50-a509-69294c14e84b","MsBuild Making Network Connections",217,"medium",true
+"c1326e45-6d3c-4a2d-9882-606a0c310299","GenAI CLI Started with Unsafe Permission Bypass",4,"medium",true
+"80d7f4ef-c3b6-4466-80f4-805bdd10507d","Java Dropped and Executed With DNS Lookup",2,"medium",true
+"5f2f463e-6997-478c-8405-fb41cc283281","Potential File Download via a Headless Browser",210,"high",true
+"e7357fec-6e9c-41b9-b93d-6e4fc40c7d47","Potential Windows Session Hijacking via CcmExec",7,"medium",true
+"d84a11c0-eb12-4e7d-8a0a-718e38351e29","Potential Machine Account Relay Attack via SMB",5,"high",true
+"23c53c4c-aa8b-4b07-85c0-fe46a9c8acaf","Potential SAP NetWeaver Exploitation",3,"high",true
+"ad02da2f-443d-454c-a12e-d9e6c65831ff","Suspicious Instance Metadata Service (IMDS) API Request",2,"medium",true
+"2c74e26b-dfe3-4644-b62b-d0482f124210","Delegated Managed Service Account Modification by an Unusual User",5,"high",true
+"642ce354-4252-4d43-80c9-6603f16571c1","System Public IP Discovery via DNS Query",6,"high",true
+"ae8a142c-6a1d-4918-bea7-0b617e99ecfa","Suspicious Execution via Microsoft Office Add-Ins",214,"medium",true
+"8f919d4b-a5af-47ca-a594-6be59cd924a4","Incoming DCOM Lateral Movement with ShellBrowserWindow or ShellWindows",213,"medium",true
+"4e85dc8a-3e41-40d8-bc28-91af7ac6cf60","Multiple Logon Failure Followed by Logon Success",118,"medium",true
+"894326d2-56c0-4342-b553-4abfaf421b5b","Potential WPAD Spoofing via DNS Record Creation",109,"medium",true
+"e8571d5f-bea1-46c2-9f56-998de2d3ed95","Service Control Spawned via Script Interpreter",221,"low",true
+"9d110cb3-5f4b-4c9a-b9f5-53f0a1707ae3","Microsoft Build Engine Started by a System Process",320,"medium",true
+"89f9a4b0-9f8f-4ee0-8823-c4751a6d6696","Suspicious Command Prompt Network Connection",216,"low",true
+"ebfe1448-7fac-4d59-acea-181bd89b1f7f","Process Execution from an Unusual Directory",321,"medium",true
+"b66b7e2b-d50a-49b9-a6fc-3a383baedc6b","Potential Privilege Escalation via Service ImagePath Modification",111,"medium",true
+"a7c3e8f2-4b19-4d6a-9e5c-8f1a2b3c4d5e","Execution via OpenClaw Agent",7,"medium",true
+"bd7eefee-f671-494e-98df-f01daf9e5f17","Suspicious Print Spooler Point and Print DLL",216,"high",true
+"deab559f-f3ab-4ce3-b17c-8f70c4169fd6","Potential Tunneling via AWS IoT Secure Tunneling Localproxy",1,"high",true
+"891cb88e-441a-4c3e-be2d-120d99fe7b0d","Suspicious WMI Image Load from MS Office",213,"low",true
+"a7ccae7b-9d2c-44b2-a061-98e5946971fa","Suspicious Print Spooler SPL File Created",120,"low",true
+"62a70f6f-3c37-43df-a556-f64fa475fba2","Account Configured with Never-Expiring Password",218,"medium",true
+"c25e9c87-95e1-4368-bfab-9fd34cf867ec","Microsoft IIS Connection Strings Decryption",320,"high",true
+"55d551c6-333b-4665-ab7e-5d14a59715ce","PsExec Network Connection",215,"low",true
+"4b438734-3793-4fda-bd42-ceeada0be8f9","Disable Windows Firewall Rules via Netsh",318,"medium",true
+"57e118c1-19eb-4c20-93a6-8a6c30a5b48b","Remote GitHub Actions Runner Registration",4,"medium",true
+"5aee924b-6ceb-4633-980e-1bde8cdb40c5","Potential Secure File Deletion via SDelete Utility",315,"low",true
+"b83a7e96-2eb3-4edf-8346-427b6858d3bd","Creation or Modification of Domain Backup DPAPI private key",419,"high",true
+"56d9cf6c-46ea-4019-9c7f-b1fdb855fee3","Windows Sandbox with Sensitive Configuration",5,"medium",true
+"33f306e8-417c-411b-965c-c2812d6d3f4d","Remote File Download via PowerShell",118,"medium",true
+"2fba96c0-ade5-4bce-b92f-a5df2509da3f","Startup Folder Persistence via Unsigned Process",114,"medium",true
+"fe794edd-487f-4a90-b285-3ee54f2af2d3","Microsoft Windows Defender Tampering",323,"medium",true
+"291a0de9-937a-4189-94c0-3e847c8b13e4","Enumeration of Privileged Local Groups Membership",422,"medium",true
+"b9960fef-82c6-4816-befa-44745030e917","SolarWinds Process Disabling Services via Registry",320,"medium",true
+"63e65ec3-43b1-45b0-8f2d-45b34291dc44","Network Connection via Signed Binary",214,"low",true
+"93b22c0a-06a0-4131-b830-b10d5e166ff4","Suspicious SolarWinds Child Process",217,"medium",true
+"54214c47-be7c-4f6b-8ef2-78832f9f8f42","Network Connection to OAST Domain via Script Interpreter",103,"high",true
+"56557cde-d923-4b88-adee-c61b3f3b5dc3","Windows CryptoAPI Spoofing Vulnerability (CVE-2020-0601 - CurveBall)",213,"low",true
+"14dab405-5dd9-450c-8106-72951af2391f","Office Test Registry Persistence",110,"low",true
+"0564fb9d-90b9-4234-a411-82a546dc1343","Microsoft IIS Service Account Password Dumped",221,"low",true
+"fd7a6052-58fa-4397-93c3-4795249ccfa2","Svchost spawning Cmd",429,"low",true
+"16a52c14-7883-47af-8745-9357803f0d4c","Component Object Model Hijacking",122,"low",true
+"68d56fdc-7ffa-4419-8e95-81641bd6f845","UAC Bypass via ICMLuaUtil Elevated COM Interface",216,"high",true
+"a1b2c3d4-e5f6-7890-abcd-ef1234567890","GenAI Process Connection to Suspicious Top Level Domain",3,"medium",true
+"06dceabf-adca-48af-ac79-ffdf4c3b1e9a","Potential Evasion via Filter Manager",221,"medium",true
+"2ffa1f1e-b6db-47fa-994b-1512743847eb","Windows Defender Disabled via Registry Modification",220,"low",true
+"6a8ab9cc-4023-4d17-b5df-1a3e16882ce7","Unusual Service Host Child Process - Childless Service",316,"medium",true
+"97aba1ef-6034-4bd3-8c1a-1e0996b27afa","Suspicious Zoom Child Process",424,"medium",true
+"ab05c807-e12b-4ec1-8380-844a65c9fef1","Potential Third-Party Cloud Storage Client Execution",1,"medium",true
+"1397e1b9-0c90-4d24-8d7b-80598eb9bc9a","Potential Ransomware Behavior - Note Files by System",217,"medium",true
+"1ac027c2-8c60-4715-af73-927b9c219e20","Windows Server Update Service Spawning Suspicious Processes",5,"high",true
+"581add16-df76-42bb-af8e-c979bfb39a59","Backup Deletion with Wbadmin",321,"low",true
+"36a8e048-d888-4f61-a8b9-0f9e2e40f317","Suspicious ImagePath Service Creation",316,"high",true
+"9aeca498-1e3d-4496-9e12-6ef40047eb23","Suspicious Shell Execution via Velociraptor",5,"medium",true
+"32144184-7bfa-4541-9c3f-b65f16d24df9","Potential IIS Web Shell File Creation",6,"high",true
+"30f9d940-7d55-4fff-a8b9-4715d20eb204","Windows Script Execution from Archive",5,"medium",true
+"b5ea4bfe-a1b2-421f-9d47-22a75a6f2921","Volume Shadow Copy Deleted or Resized via VssAdmin",319,"high",true
+"7e763fd1-228a-4d43-be88-3ffc14cd7de1","File with Right-to-Left Override Character (RTLO) Created/Executed",6,"medium",true
+"871ea072-1b71-4def-b016-6278b505138d","Enumeration of Administrator Accounts",221,"low",true
+"f545ff26-3c94-4fd0-bd33-3c7f95a3a0fc","Windows Script Executing PowerShell",318,"low",true
+"b2c3d4e5-f6a7-8901-bcde-f123456789ab","GenAI Process Compiling or Generating Executables",6,"medium",true
+"c6b40f4c-c6a9-434e-adb8-989b0d06d005","Suspicious Kerberos Authentication Ticket Request",7,"high",true
+"56099694-8a36-444c-a918-2141b613d293","Potential FileFix Command via Windows Explorer Address Bar",3,"high",true
+"2820c9c2-bcd7-4d6e-9eba-faf3891ba450","Account Password Reset Remotely",223,"medium",true
+"e88d1fe9-b2f4-48d4-bace-a026dc745d4b","Host File System Changes via Windows Subsystem for Linux",116,"medium",true
+"770e0c4d-b998-41e5-a62e-c7901fd7f470","Enumeration Command Spawned via WMIPrvSE",322,"low",true
+"7f3521dd-fb80-4548-a7eb-8db37b898dc2","Potential Notepad Markdown RCE Exploitation",6,"high",true
+"5a14d01d-7ac8-4545-914c-b687c2cf66b3","UAC Bypass Attempt via Privileged IFileOperation COM Interface",315,"high",true
+"801ace97-934f-49f8-82c6-c2ac6caf7f60","Potential Uninstall Entry Concealment",1,"medium",true
+"74d31cb7-4a2c-44fe-9d1d-f375b9f3cb61","Long Base64 Encoded Command via Scripting Interpreter",4,"high",true
+"81ff45f8-f8c2-4e28-992e-5a0e8d98e0fe","Temporarily Scheduled Task Creation",116,"medium",true
+"e9abe69b-1deb-4e19-ac4a-5d5ac00f72eb","Potential LSA Authentication Package Abuse",112,"medium",true
+"a9b05c3b-b304-4bf9-970d-acdfaef2944c","Persistence via Hidden Run Key Detected",217,"high",true
+"32f4675e-6c49-4ace-80f9-97c9259dca2e","Suspicious MS Outlook Child Process",423,"low",true
+"fb02b8d3-71ee-4af1-bacd-215d23f17efa","Network Connection via Registration Utility",213,"low",true
+"a2d4508e-e9c2-41f6-9466-0c3aed8cc2c9","Suspicious Java Class File Created in PaperCut Server Library",2,"critical",true
+"b64b183e-1a76-422d-9179-7b389513e74d","Windows Script Interpreter Executing Process via WMI",216,"medium",true
+"76fd43b7-3480-4dd9-8ad7-8bd36bfad92f","Potential Remote Desktop Tunneling Detected",422,"high",true
+"fc7c0fa4-8f03-4b3e-8336-c5feab0be022","UAC Bypass Attempt via Elevated COM Internet Explorer Add-On Installer",316,"medium",true
+"b4d4f0fb-908e-4cd1-ac8f-795c0433db0a","Suspicious Child Process via Azure VM CustomScript Extension",2,"medium",true
+"bfeaf89b-a2a7-48a3-817f-e41829dc61ee","Suspicious DLL Loaded for Persistence or Privilege Escalation",220,"high",true
+"05b358de-aa6d-4f6c-89e6-78f74018b43b","Conhost Spawned By Suspicious Parent Process",315,"high",true
+"9d110cb3-5f4b-4c9a-b9f5-53f0a1707ae5","Potential Credential Access via Trusted Developer Utility",215,"high",true
+"55c2bf58-2a39-4c58-a384-c8b1978153c2","Windows Service Installed via an Unusual Client",219,"high",true
+"181f6b23-3799-445e-9589-0018328a9e46","Script Execution via Microsoft HTML Application",213,"high",true
+"9f962927-1a4f-45f3-a57b-287f2c7029c1","Potential Credential Access via DCSync",224,"medium",true
+"fa488440-04cc-41d7-9279-539387bf2a17","Suspicious Antimalware Scan Interface DLL",322,"high",true
+"220be143-5c67-4fdb-b6ce-dd6826d024fd","Full User-Mode Dumps Enabled System-Wide",114,"medium",true
+"1fe3b299-fbb5-4657-a937-1d746f2c711a","Unusual Network Activity from a Windows System Binary",223,"medium",true
+"ee5300a7-7e31-4a72-a258-250abb8b3aa1","Unusual Print Spooler Child Process",218,"medium",true
+"622ecb68-fa81-4601-90b5-f8cd661e4520","Incoming DCOM Lateral Movement via MSHTA",213,"high",true
+"7405ddf1-6c8e-41ce-818f-48bea6bcaed8","Potential Modification of Accessibility Binaries",219,"high",true
+"f7d588ba-e4b0-442e-879d-7ec39fbd69c5","Potential SAP NetWeaver WebShell Creation",3,"high",true
+"5c6f4c58-b381-452a-8976-f1b1c6aa0def","First Time Seen Account Performing DCSync",120,"high",true
+"58bc134c-e8d2-4291-a552-b4b3e537c60b","Potential Lateral Tool Transfer via SMB Share",116,"medium",true
+"78ef0c95-9dc2-40ac-a8da-5deb6293a14e","Unsigned DLL Loaded by Svchost",13,"medium",true
+"37148ae6-c6ec-4fe4-88b1-02f40aed93a9","Command Obfuscation via Unicode Modifier Letters",4,"high",true
+"57bfa0a9-37c0-44d6-b724-54bf16787492","DNS Global Query Block List Modified or Disabled",212,"medium",true
+"403ef0d3-8259-40c9-a5b6-d48354712e49","Unusual Persistence via Services Registry",319,"low",true
+"dca6b4b0-ae70-44eb-bb7a-ce6db502ee78","Suspicious Execution from INET Cache",214,"high",true
+"12de29d4-bbb0-4eef-b687-857e8a163870","Potential Exploitation of an Unquoted Service Path Vulnerability",212,"low",true
+"97020e61-e591-4191-8a3b-2861a2b887cd","SeDebugPrivilege Enabled by a Suspicious Process",116,"medium",true
+"3f7bd5ac-9711-44b4-82c1-fa246d829f15","Command Execution via ForFiles",8,"medium",true
+"d9af2479-ad13-4471-a312-f586517f1243","Curl or Wget Spawned via Node.js",7,"medium",true
+"e3343ab9-4245-4715-b344-e11c56b0a47f","Process Activity via Compiled HTML File",320,"medium",true
+"b90cdde7-7e0d-4359-8bf0-2c112ce2008a","UAC Bypass Attempt with IEditionUpgradeManager Elevated COM Interface",315,"high",true
+"fcd16fe8-eb29-42b3-8aee-6c9ad777a2f6","Proxy Execution via Console Window Host",8,"high",true
+"83bf249e-4348-47ba-9741-1202a09556ad","Suspicious Windows Powershell Arguments",218,"medium",true
+"3d00feab-e203-4acc-a463-c3e15b7e9a73","ScreenConnect Server Spawning Suspicious Processes",212,"high",true
+"c7894234-7814-44c2-92a9-f7d851ea246a","Unusual Network Connection via DllHost",214,"medium",true
+"1719ee47-89b8-4407-9d55-6dff2629dd4c","Persistence via a Windows Installer",10,"medium",true
+"c5dc3223-13a2-44a2-946c-e9dc0aa0449c","Microsoft Build Engine Started by an Office Application",319,"high",true
+"f580bf0a-2d23-43bb-b8e1-17548bb947ec","Rare SMB Connection to the Internet",215,"medium",true
+"2635d2ba-51e7-404a-9b17-db413a1351d5","Potential Destructive AWS CLI Command Executed by GenAI Agent",3,"high",true
+"440e2db4-bc7f-4c96-a068-65b78da59bde","Startup Persistence by a Suspicious Process",317,"medium",true
+"d31f183a-e5b1-451b-8534-ba62bca0b404","Disabling User Account Control via Registry Modification",319,"medium",true
+"a02cb68e-7c93-48d1-93b2-2c39023308eb","Unusual Scheduled Task Update",120,"low",true
+"68921d85-d0dc-48b3-865f-43291ca2c4f2","Persistence via TelemetryController Scheduled Task Hijack",319,"high",true
+"dffbd37c-d4c5-46f8-9181-5afdd9172b4c","Potential privilege escalation via CVE-2022-38028",212,"high",true
+"ae3e9625-89ad-4fc3-a7bf-fced5e64f01b","Suspicious React Server Child Process",6,"high",true
+"d61cbcf8-1bc1-4cff-85ba-e7b21c5beedc","Service Command Lateral Movement",213,"low",true
+"1e1b2e7e-b8f5-45e5-addc-66cc1224ffbc","Creation of a DNS-Named Record",110,"low",true
+"8f242ffb-b191-4803-90ec-0f19942e17fd","Potential ADIDNS Poisoning via Wildcard Record Creation",109,"high",true
+"1160dcdb-0a0a-4a79-91d8-9b84616edebd","Potential DLL Side-Loading via Trusted Microsoft Programs",220,"medium",true
+"26b01043-4f04-4d2f-882a-5a1d2e95751b","Privileges Elevation via Parent Process PID Spoofing",14,"high",true
+"c4e8a1d7-2b6f-4e93-8a15-7d0c3f9b6e42","Suspicious PowerShell from npm Package Install",1,"high",true
+"d9ffc3d6-9de9-4b29-9395-5757d0695ecf","Suspicious Windows Command Shell Arguments",212,"high",true
+"590fc62d-7386-4c75-92b0-af4517018da1","Unusual Process Modifying GenAI Configuration File",10,"medium",true
+"0b2f3da5-b5ec-47d1-908b-6ebb74814289","User account exposed to Kerberoasting",224,"medium",true
+"55f711c1-6b4d-4787-930d-c9317a885adf","Suspicious Execution with NodeJS",6,"high",true
+"bdcf646b-08d4-492c-870a-6c04e3700034","Potential Privileged Escalation via SamAccountName Spoofing",217,"high",true
+"de9bd7e0-49e9-4e92-a64d-53ade2e66af1","Unusual Child Process from a System Virtual Process",320,"high",true
+"52aaab7b-b51c-441a-89ce-4387b3aea886","Unusual Network Connection via RunDLL32",215,"medium",true
+"2c17e5d7-08b9-43b2-b58a-0270d65ac85b","Windows Defender Exclusions Added via PowerShell",320,"medium",true
+"942c8f59-f01c-4dc0-a05f-2f5bba836ad8","Potential Evasion via Boot Time Removal Tool",3,"high",true
+"c18975f5-676c-4091-b626-81e8938aa2ee","Potential RemoteMonologue Attack",8,"medium",true
+"c6c790fe-2bfa-45fa-b3c5-6b702e66bbea","GenAI Agent Instruction File Written to Downloads",1,"medium",true
+"63e381a6-0ffe-4afb-9a26-72a59ad16d7b","Sensitive Registry Hive Access via RegBack",8,"high",true
+"ff6cf8b9-b76c-4cc1-ac1b-4935164d1029","Alternate Data Stream Creation/Execution at Volume Root Directory",207,"medium",true
+"8b4f0816-6a65-4630-86a6-c21c179c0d09","Enable Host Network Discovery via Netsh",317,"medium",true
+"15a8ba77-1c13-4274-88fe-6bd14133861e","Scheduled Task Execution at Scale via GPO",218,"medium",true
+"ebb200e8-adf0-43f8-a0bb-4ee5b5d852c6","Mimikatz Memssp Log File Detected",420,"high",true
+"fa01341d-6662-426b-9d0c-6d81e33c8a9d","Remote File Copy to a Hidden Share",321,"medium",true
+"a7e7bfa3-088e-4f13-b29e-3986e0e756b8","Credential Acquisition via Registry Hive Dumping",319,"high",true
+"0c7ca5c2-728d-4ad9-b1c5-bbba83ecb1f4","Peripheral Device Discovery",317,"low",true
+"71bccb61-e19b-452f-b104-79a60e546a95","Unusual File Creation - Alternate Data Stream",325,"high",true
+"e468f3f6-7c4c-45bb-846a-053738b3fe5d","First Time Seen NewCredentials Logon Process",112,"medium",true
+"730ed57d-ae0f-444f-af50-78708b57edd5","Suspicious JetBrains TeamCity Child Process",211,"medium",true
+"32c5cf9c-2ef8-4e87-819e-5ccb7cd18b14","Program Files Directory Masquerading",322,"medium",true
+"2edc8076-291e-41e9-81e4-e3fcbc97ae5e","Creation of a Hidden Local User Account",318,"high",true
+"5d1d6907-0747-4d5d-9b24-e4a18853dc0a","Suspicious Execution via Scheduled Task",217,"medium",true
+"c3b915e0-22f3-4bf7-991d-b643513c722f","Persistence via BITS Job Notify Cmdline",416,"medium",true
+"55be0398-e72d-4c02-a916-b11d62af0e29","Uncommon DNS Request via Bun or Node.js",2,"low",true
+"65432f4a-e716-4cc1-ab11-931c4966da2d","MsiExec Service Child Process With Network Connection",209,"medium",true
+"8b2b3a62-a598-4293-bc14-3d5fa22bb98f","Executable File Creation with Multiple Extensions",316,"medium",true
+"4de76544-f0e5-486a-8f84-eae0b6063cdc","Disable Windows Event and Security Logs Using Built-in Tools",321,"low",true
+"adbfa3ee-777e-4747-b6b0-7bd645f30880","Suspicious Communication App Child Process",15,"medium",true
+"4b4e9c99-27ea-4621-95c8-82341bc6e512","Container Workload Protection",107,"medium",true
+"850d901a-2a3c-46c6-8b22-55398a01aad8","Potential Remote Credential Access via Registry",115,"high",true
+"b9554892-5e0e-424b-83a0-5aef95aa43bf","Group Policy Abuse for Privilege Addition",216,"high",true
+"4682fd2c-cfae-47ed-a543-9bed37657aa6","Potential Local NTLM Relay via HTTP",319,"high",true
+"764c9fcd-4c4c-41e6-a0c7-d6c46c2eff66","Access to a Sensitive LDAP Attribute",122,"medium",true
+"db7dbad5-08d2-4d25-b9b1-d3a1e4a15efd","Execution via Windows Subsystem for Linux",218,"medium",true
+"c8b150f0-0164-475b-a75e-74b47800a9ff","Suspicious Startup Shell Folder Modification",321,"high",true
+"30cb6dea-ce4d-4685-bd6c-9ff5b1904781","Potential Prompt Injection Coercing Shell Execution",1,"medium",true
+"1b0b4818-5655-409b-9c73-341cac4bb73f","Process Created with a Duplicated Token",8,"medium",true
+"9d110cb3-5f4b-4c9a-b9f5-53f0a1707ae9","Process Injection by the Microsoft Build Engine",213,"low",true
+"68ad737b-f90a-4fe5-bda6-a68fa460044e","Suspicious Access to LDAP Attributes",111,"low",true
+"8e2485b6-a74f-411b-bf7f-38b819f3a846","Potential WSUS Abuse for Lateral Movement",214,"medium",true
+"f95972d3-c23b-463b-89a8-796b3f369b49","Ingress Transfer via Windows BITS",14,"low",true
+"f675872f-6d85-40a3-b502-c0d2ef101e92","Delete Volume USN Journal with Fsutil",317,"low",true
+"ef862985-3f13-4262-a686-5f357bbb9bc2","Whoami Process Activity",222,"low",true
+"c9847fe9-3bed-4e6b-b319-f9956d6dd02a","Potential Remote Install via MsiExec",6,"high",true
+"acf738b5-b5b2-4acc-bad9-1e18ee234f40","Suspicious Managed Code Hosting Process",316,"high",true
+"ac6bc744-e82b-41ad-b58d-90654fa4ebfb","WPS Office Exploitation via DLL Hijack",107,"high",true
+"b627cd12-dac4-11ec-9582-f661ea17fbcd","Elastic Agent Service Terminated",116,"medium",true
+"9d110cb3-5f4b-4c9a-b9f5-53f0a1707ae2","Microsoft Build Engine Started by a Script Process",319,"medium",true
+"ddab1f5f-7089-44f5-9fda-de5b11322e77","NullSessionPipe Registry Modification",317,"medium",true
+"d331bbe2-6db4-4941-80a5-8270db72eb61","Clearing Windows Event Logs",323,"low",true
+"69c251fb-a5d6-4035-b5ec-40438bd829ff","Modification of Boot Configuration",317,"low",true
+"e514d8cd-ed15-4011-84e2-d15147e059f1","Kerberos Pre-authentication Disabled for User",220,"medium",true
+"6f024bde-7085-489b-8250-5957efdf1caf","Active Directory Group Modification by SYSTEM",109,"medium",true
+"3ed032b2-45d8-4406-bc79-7ad1eabb2c72","Suspicious Process Creation CallTrace",313,"medium",true
+"48b6edfc-079d-4907-b43c-baffa243270d","Multiple Logon Failure from the same Source Address",121,"medium",true
+"e7f2c4a1-9b3d-5e8f-c6a0-2d1b4e7f8c3a","Potential Protocol Tunneling via Yuze",5,"medium",true
+"3535c8bb-3bd5-40f4-ae32-b7cd589d5372","Port Forwarding Rule Addition",422,"medium",true
+"a16612dd-b30e-4d41-86a0-ebe70974ec00","Potential LSASS Clone Creation via PssCaptureSnapShot",214,"high",true
+"d6e1b3f0-8a2c-4e7d-b5f9-1c0e3a6d8b2f","Potential Protocol Tunneling via Cloudflared",5,"medium",true
+"54c3d186-0461-4dc3-9b33-2dc5c7473936","Network Logon Provider Registry Modification",220,"medium",true
+"e2e0537d-7d8f-4910-a11d-559bcf61295a","Windows Subsystem for Linux Enabled via Dism Utility",218,"medium",true
+"9c0f61fa-abf4-4b11-8d9d-5978c09182dd","Potential Command Shell via NetCat",4,"high",true
+"897dc6b5-b39f-432a-8d75-d3730d50c782","Kerberos Traffic from Unusual Process",216,"medium",true
+"5841b80f-a1f8-4c00-a966-d2cc4a7a82e4","Unusual Web Config File Access",5,"high",true
+"b25a7df2-120a-4db2-bd3f-3e4b86b24bee","Remote File Copy via TeamViewer",219,"medium",true
+"5e23495f-09e2-4484-8235-bdb150d698c9","Potential CVE-2025-33053 Exploitation",5,"high",true
+"e94262f2-c1e9-4d3f-a907-aeab16712e1a","Unusual Executable File Creation by a System Critical Process",319,"high",true
+"ff18d24b-2ba6-4691-a17f-75c4380d0965","Suspicious JavaScript Execution via Deno",5,"high",true
+"d8ab1ec1-feeb-48b9-89e7-c12e189448aa","Untrusted Driver Loaded",16,"high",true
+"9c865691-5599-447a-bac9-b3f2df5f9a9d","Remote Scheduled Task Creation via RPC",116,"medium",true
+"d12bac54-ab2a-4159-933f-d7bcefa7b61d","Expired or Revoked Driver Loaded",11,"medium",true
+"f3475224-b179-4f78-8877-c2bd64c26b88","WMI Incoming Lateral Movement",219,"medium",true
+"c88d4bd0-5649-4c52-87ea-9be59dbfbcf2","Parent Process PID Spoofing",112,"high",true
+"2baf0a3c-50cd-43b1-9e9a-d7ff3153b36b","Package Runtime Secret File Access Followed by IMDS Request",1,"high",true
+"f2c7b914-eda3-40c2-96ac-d23ef91776ca","SIP Provider Modification",317,"medium",true
+"9bed06f5-0c32-488a-9353-d565fc9d1573","Protected Storage Service Access via SMB",3,"high",true
+"3e0eeb75-16e8-4f2f-9826-62461ca128b7","Suspicious Execution via Windows Subsystem for Linux",217,"low",true
+"be8afaed-4bcd-4e0a-b5f9-5562003dde81","Searching for Saved Credentials via VaultCmd",319,"medium",true
+"c4210e1c-64f2-4f48-b67e-b5a8ffe3aa14","Mounting Hidden or WebDav Remote Shares",318,"medium",true
+"64037f09-7bf0-4051-ab51-b6daa1d853c6","Newly Seen Commonly Abused Network Scanner",1,"medium",true
+"35df0dd8-092d-4a83-88c1-5151a804f31b","Unusual Parent-Child Relationship",325,"medium",true
+"66883649-f908-4a5b-a1e0-54090a1d3a32","Connection to Commonly Abused Web Services",135,"low",true
+"4ed493fc-d637-4a36-80ff-ac84937e5461","Execution via MSSQL xp_cmdshell Stored Procedure",322,"medium",true
+"3e441bdb-596c-44fd-8628-2cfdf4516ada","Potential Remote File Execution via MSIEXEC",9,"low",true
+"e00b8d49-632f-4dc6-94a5-76153a481915","Delayed Execution via Ping",10,"low",true
+"8a1d4831-3ce6-4859-9891-28931fa6101d","Suspicious Execution from a Mounted Device",215,"medium",true
+"2dd480be-1263-4d9c-8672-172928f6789a","Suspicious Process Access via Direct System Call",317,"high",true
+"ad0d2742-9a49-11ec-8d6b-acde48001122","Signed Proxy Execution via MS Work Folders",318,"medium",true
+"265db8f5-fc73-4d0d-b434-6483b56372e2","Persistence via Update Orchestrator Service Hijack",321,"high",true
+"0022d47d-39c7-4f69-a232-4fe9dc7a3acd","System Shells via Services",423,"medium",true
+"1a6075b0-7479-450e-8fe7-b8b8438ac570","Execution of COM object via Xwizard",321,"medium",true
+"c371e9fc-6a10-11ef-a0ac-f661ea17fbcc","AWS SSM `SendCommand` with Run Shell Command Parameters",8,"medium",true
+"58aa72ca-d968-4f34-b9f7-bea51d75eb50","RDP Enabled via Registry",318,"medium",true
+"e7125cea-9fe1-42a5-9a05-b0792cf86f5a","Execution of Persistent Suspicious Program",213,"medium",true
+"4bd1c1af-79d4-4d37-9efa-6e0240640242","Unusual Process Execution Path - Alternate Data Stream",317,"medium",true
+"3a6001a0-0939-4bbe-86f4-47d8faeb7b97","Suspicious Module Loaded by LSASS",16,"medium",true
+"954ee7c8-5437-49ae-b2d6-2960883898e9","Remote Scheduled Task Creation",216,"medium",true
+"c7ce36c0-32ff-4f9a-bfc2-dcb242bf99f9","Unusual File Operation by dns.exe",219,"medium",true
+"79f97b31-480e-4e63-a7f4-ede42bf2c6de","Potential Shadow Credentials added to AD Object",220,"high",true
+"fb01d790-9f74-4e76-97dd-b4b0f7bf6435","Potential Masquerading as System32 DLL",113,"high",true
+"cb602a92-6613-4425-b983-61fcb02b647c","Suspicious Command Execution from Visual Studio Code",1,"medium",true
+"d8f2a1b3-c4e5-6789-abcd-ef0123456789","Ollama API Accessed from External Network",4,"medium",true
+"02a23ee7-c8f8-4701-b99d-e9038ce313cb","Process Created with an Elevated Token",13,"high",true
+"b0638186-4f12-48ac-83d2-47e686d08e82","Netsh Helper DLL",209,"low",true
+"5cd55388-a19c-47c7-8ec4-f41656c2fded","Outbound Scheduled Task Activity via PowerShell",216,"medium",true
+"f0dbff4c-1aa7-4458-9ed5-ada472f64970","dMSA Account Creation by an Unusual User",6,"high",true
+"ac5012b8-8da8-440b-aaaf-aedafdea2dff","Suspicious WerFault Child Process",421,"medium",true
+"2772264c-6fb9-4d9d-9014-b416eed21254","Incoming Execution via PowerShell Remoting",217,"medium",true
+"bdfaddc4-4438-48b4-bc43-9f5cf8151c46","Execution via Windows Command Debugging Utility",112,"medium",true
+"f874315d-5188-4b4a-8521-d1c73093a7e4","Modification of AmsiEnable Registry Key",318,"high",true
+"42eeee3d-947f-46d3-a14d-7036b962c266","Process Creation via Secondary Logon",118,"medium",true
+"da7733b1-fe08-487e-b536-0a04c6d8b0cd","Code Signing Policy Modification Through Registry",218,"medium",true
+"fd4a992d-6130-4802-9ff8-829b89ae801f","Potential Application Shimming via Sdbinst",321,"low",true
+"9b6813a1-daf1-457e-b0e6-0bb4e55b8a4c","Persistence via WMI Event Subscription",320,"low",true
+"86817045-ea22-4038-9959-c3437bc4c064","Potential SSH Reverse Port Forwarding",3,"low",true
+"07b1ef73-1fde-4a49-a34a-5dd40011b076","Local Account TokenFilter Policy Disabled",322,"medium",true
+"7babe894-46e5-4cc8-a7ae-3b0e71e31d97","Suspicious IDE Extension Installation from VSIX",1,"medium",true
+"16fac1a1-21ee-4ca6-b720-458e3855d046","Startup/Logon Script added to Group Policy Object",219,"medium",true
+"c3d4e5f6-a7b8-6c9d-0e1f-2a3b4c5d6e7f","Suspicious Execution from VS Code Extension",4,"medium",true
+"3b47900d-e793-49e8-968f-c90dc3526aa1","Unusual Parent Process for cmd.exe",419,"medium",true
+"df0fd41e-5590-4965-ad5e-cd079ec22fa9","First Time Seen Driver Loaded",14,"medium",true
+"48e60a73-08e8-42aa-8f51-4ed92c64dbea","Suspicious Microsoft HTML Application Child Process",7,"high",true
+"6bed021a-0afb-461c-acbe-ffdb9574d3f3","Remote Computer Account DnsHostName Update",216,"high",true
+"8f3e91c7-d791-4704-80a1-42c160d7aa27","Potential Port Monitor or Print Processor Registration Abuse",114,"medium",true
+"70d12c9c-0dbd-4a1a-bc44-1467502c9cf6","Persistence via WMI Standard Registry Provider",115,"high",true
+"201200f1-a99b-43fb-88ed-f65a45c4972c","Suspicious .NET Code Compilation",320,"medium",true
+"b8f8da2d-a9dc-48c0-90e4-955c0aa1259a","Kirbi File Creation",317,"high",true
+"670b3b5a-35e5-42db-bd36-6c5b9b4b7313","Modification of the msPKIAccountCredentials",122,"medium",true
+"a22a09c2-2162-4df0-a356-9aacbeb56a04","DNS-over-HTTPS Enabled via Registry",318,"low",true
+"397945f3-d39a-4e6f-8bcb-9656c2031438","Persistence via Microsoft Outlook VBA",315,"medium",true
+"54902e45-3467-49a4-8abc-529f2c8cfb80","Uncommon Registry Persistence Change",220,"medium",true
+"78e9b5d5-7c07-40a7-a591-3dbbf464c386","Suspicious File Renamed via SMB",10,"high",true
+"c6453e73-90eb-4fe7-a98c-cde7bbfc504a","Remote File Download via MpCmdRun",321,"medium",true
+"85e2d45e-a3df-4acf-83d3-21805f564ff4","Potential PowerShell Obfuscation via Character Array Reconstruction",12,"high",true
+"3ecbdc9e-e4f2-43fa-8cca-63802125e582","Privilege Escalation via Named Pipe Impersonation",320,"high",true
+"d0e159cf-73e9-40d1-a9ed-077e3158a855","Registry Persistence via AppInit DLL",318,"medium",true
+"5188c68e-d3de-4e96-994d-9e242269446f","Service DACL Modification via sc.exe",210,"medium",true
+"737b5532-cf2e-4d40-9209-d7aec9dd25d5","Potential PowerShell Obfuscated Script via High Entropy",6,"low",true
+"2c3c29a4-f170-42f8-a3d8-2ceebc18eb6a","Suspicious Microsoft Diagnostics Wizard Execution",221,"high",true
+"e5f6a7b8-c9d0-8e1f-2a3b-4c5d6e7f8a9b","First Time Seen DNS Query to RMM Domain",6,"medium",true
+"d99a037b-c8e2-47a5-97b9-170d076827c4","Volume Shadow Copy Deletion via PowerShell",320,"high",true
+"92d3a04e-6487-4b62-892d-70e640a590dc","Potential Evasion via Windows Filtering Platform",112,"medium",true
+"6aace640-e631-4870-ba8e-5fdda09325db","Exporting Exchange Mailbox via PowerShell",424,"medium",true
+"31b4c719-f2b4-41f6-a9bd-fce93c2eaf62","Bypass UAC via Event Viewer",324,"high",true
+"daafdf96-e7b1-4f14-b494-27e0d24b11f6","Potential Pass-the-Hash (PtH) Attempt",112,"medium",true
+"7265f4fa-4839-4399-924c-a91f1e45d76c","AzCopy or Azure Storage Explorer Usage on Unusual Host",2,"medium",true
+"f701be14-0a36-4e9a-a851-b3e20ae55f09","Potential Kerberos Coercion via DNS-Based SPN Spoofing",5,"high",true
+"f401a0e3-5eeb-4591-969a-f435488e7d12","Remote Desktop File Opened from Suspicious Path",10,"medium",true
+"513f0ffd-b317-4b9c-9494-92ce861f22c7","Registry Persistence via AppCert DLL",419,"medium",true
+"db65f5ba-d1ef-4944-b9e8-7e51060c2b42","Network-Level Authentication (NLA) Disabled",211,"low",true
+"4630d948-40d4-4cef-ac69-4002e29bc3db","Adding Hidden File Attribute via Attrib",322,"low",true
+"f494c678-3c33-43aa-b169-bb3d5198c41d","Sensitive Privilege SeEnableDelegationPrivilege assigned to a Principal",220,"high",true
+"afcce5ad-65de-4ed2-8516-5e093d3ac99a","Local Scheduled Task Creation",215,"low",true
+"f2f46686-6f3c-4724-bd7d-24e31c70f98f","LSASS Memory Dump Creation",317,"high",true
+"5f73aef2-7abc-4fd9-ac0d-ab8ec3e13891","NetSupport Manager Execution from an Unusual Path",4,"high",true
+"2b9a3b7a-0891-4a89-abbe-dca753c403cd","Multi-Cloud CLI Token and Credential Access Commands",2,"high",true
+"a8afdce2-0ec1-11ee-b843-f661ea17fbcd","Suspicious File Downloaded from Google Drive",10,"medium",true
+"f7c4dc5a-a58d-491d-9f14-9b66507121c0","Persistent Scripts in the Startup Directory",319,"medium",true
+"416697ae-e468-4093-a93d-59661fa619ec","Control Panel Process with Unusual Arguments",320,"high",true
+"3f4c2b18-9d2e-4b7a-a3c1-8e6d9f2b5c7e","Potential Data Exfiltration via Rclone",5,"medium",true
+"6cd1779c-560f-4b68-a8f1-11009b27fe63","Microsoft Exchange Server UM Writing Suspicious Files",315,"medium",true
+"edf8ee23-5ea7-4123-ba19-56b41e424ae3","ImageLoad via Windows Update Auto Update Client",322,"medium",true
+"14ed1aa9-ebfd-4cf9-a463-0ac59ec55204","Potential Persistence via Time Provider Modification",318,"medium",true
+"e86da94d-e54b-4fb5-b96c-cecff87e8787","Installation of Security Support Provider",316,"medium",true
+"f63c8e3c-d396-404f-b2ea-0379d3942d73","Windows Firewall Disabled via PowerShell",318,"medium",true
+"fbad57ec-4442-48db-a34f-5ee907b44a22","Potential Fake CAPTCHA Phishing Attack",5,"high",true
+"6ddb6c33-00ce-4acd-832a-24b251512023","Potential PowerShell Obfuscation via Special Character Overuse",13,"medium",true
+"ffba7c69-13b3-4b6d-a747-2947e73c967c","AWS Control Plane Access by Suspicious Process",2,"medium",true
+"8f44478a-5b6a-4463-8a0a-3300bf3a62c9","Potential Entra ID PRT Extraction via BrowserCore",3,"high",true
+"cf2b8cf5-3364-4396-b551-42aae9b6d37e","AWS SSM Session Manager Child Process Execution",5,"medium",true
+"eb44611f-62a8-4036-a5ef-587098be6c43","PowerShell Script with Webcam Video Capture Capabilities",111,"medium",true
+"f38633f4-3b31-4c80-b13d-e77c70ce8254","Potential PowerShell Obfuscation via Reverse Keywords",12,"low",true
+"f6d8c743-0916-4483-8333-3c6f107e0caa","Potential PowerShell Obfuscation via String Concatenation",13,"high",true
+"e26f042e-c590-4e82-8e05-41e81bd822ad","Suspicious .NET Reflection via PowerShell",323,"medium",true
+"e72f87d0-a70e-4f8d-8443-a6407bc34643","Suspicious WMI Event Subscription Created",314,"medium",true
+"c3f8a1d2-4b5e-4c6f-9a8b-1e2d3f4a5b6c","Multiple Remote Management Tool Vendors on Same Host",5,"medium",true
+"e903ce9a-5ce6-4246-bb14-75ed3ec2edf5","Potential PowerShell Obfuscation via String Reordering",14,"medium",true
+"2e29e96a-b67c-455a-afe4-de6183431d0d","Potential Process Injection via PowerShell",220,"high",true
+"083383af-b9a4-42b7-a463-29c40efe7797","Potential PowerShell Obfuscation via Concatenated Dynamic Command Invocation",12,"high",true
+"b0c98cfb-0745-4513-b6f9-08dddb033490","Potential Dynamic IEX Reconstruction via Environment Variables",12,"medium",true
+"0f93cb9a-1931-48c2-8cd0-f173fd3e5283","Potential LSASS Memory Dump via PssCaptureSnapShot",315,"high",true
+"76ddb638-abf7-42d5-be22-4a70b0bf7241","Privilege Escalation via Rogue Named Pipe Impersonation",213,"high",true
+"166727ab-6768-4e26-b80c-948b228ffc06","Potential Timestomp in Executable Files",113,"medium",true
+"32f95776-6498-4f3c-a90c-d4f6083e3901","Potential Masquerading as Svchost",204,"high",true
+"128468bf-cab1-4637-99ea-fdf3780a4609","Suspicious Lsass Process Access",214,"medium",true
+"a4071476-76c8-4dc4-a3e2-956148d22aa2","Potential TerminalFix Cloudflare Lure in PowerShell",1,"high",true
+"9a1a2dae-0b5f-4c3d-8305-a268d404c306","Endpoint Security (Elastic Defend)",108,"medium",true
+"fddff193-48a3-484d-8d35-90bb3d323a56","PowerShell Kerberos Ticket Dump",114,"high",true
+"1d9aeb0b-9549-46f6-a32d-05e2a001b7fd","PowerShell Script with Encryption/Decryption Capabilities",115,"medium",true
