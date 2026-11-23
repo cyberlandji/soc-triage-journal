@@ -1,6 +1,6 @@
 ## Alert 6: Suspicious Windows powershell Arguments
 - **Alerttime:** 20:03:11.788
-- **Eventtime / host / user:**20:02:57.156 / desktop-eb94l4c / pb-victim
+- **Eventtime / host / user:** 20:02:57.156 / desktop-eb94l4c / pb-victim
 - **Severity / risk score:** Medium / 47
 - **What fired:** Identifies the execution of PowerShell with suspicious argument values. This behavior is often observed during malware installation leveraging PowerShell
 - **Process tree:** Delivery at the front: Rechnung_2026-11.pdf.lnk (Downloads, 20:02:50) -> parent: explorer.exe -> child: powershell.exe
@@ -8,7 +8,7 @@
 - **Benign hypothesis:** what would make this harmless?? Evidence for:Some legitimate software and admin scripts also use -enc/hidden/bypass (e.g. installers, management agents).
   Evidence against: disguised .lnk, a payload in AppData\…\Themes, an AV (windows Defender) detection.
 - **Verdict:** true positive · confidence 90%
-- **Reasoning:**The args used for the command line were suspicious enough (hidden, bypass, -enc, "Base64 String*") but there were not enough. At 20:02:57.714 a malware is detected by windows defender (event code 1116), looking into this event, we could see the exact same command used at 20:02:57.156 and with the field winlog.event_data.Threat_Name the malware had the name Trojan:Win32/ClickFix.ZB which is well known as a social-engineering lure. the Windows Defender removed the threat which was a command line in powershell process (event code 1117) at 20:04:13.552.
+- **Reasoning:** The args used for the command line were suspicious enough (hidden, bypass, -enc, "Base64 String*") but there were not enough. At 20:02:57.714 a malware is detected by windows defender (event code 1116), looking into this event, we could see the exact same command used at 20:02:57.156 and with the field winlog.event_data.Threat_Name the malware had the name Trojan:Win32/ClickFix.ZB which is well known as a social-engineering lure. the Windows Defender removed the threat which was a command line in powershell process (event code 1117) at 20:04:13.552.
 - **Chain (timeline):**
   - 20:02:46.571 theme.dat is created
   - 20:02:50.083 Delivery of rechnung 2026-11.pdf.lnk created in Downloads
