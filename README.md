@@ -55,4 +55,4 @@ Server addresses, credentials, generator source, run plans for future runs, and 
 
 ## Contact
 
-Questions, or interested in the runner (`runner.ps1`)? Reach me on [LinkedIn](LINKEDIN_URL).
+Questions, or interested in the runner (`runner.ps1`)? Reach me on [LinkedIn](https://www.linkedin.com/in/yohan-cedric-landji).
