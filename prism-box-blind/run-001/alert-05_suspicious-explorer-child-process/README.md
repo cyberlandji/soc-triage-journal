@@ -23,3 +23,16 @@
 | # | Alert | Verdict | Confidence |
 |---|---|---|---|
 |005|Suspicious Explorer Child Process|benign TP|80%|
+
+## Evidence
+
+![alert-05_01_alert-203-defend-endpoint-event.png](alert-05_01_alert-203-defend-endpoint-event.png)
+
+![alert-05_02_alert-199-sysmon-process-create.png](alert-05_02_alert-199-sysmon-process-create.png)
+
+![alert-05_03_analyzer-pid8324-sysmon-entity.png](alert-05_03_analyzer-pid8324-sysmon-entity.png)
+
+![alert-05_04_analyzer-pid8324-defend-entity.png](alert-05_04_analyzer-pid8324-defend-entity.png)
+
+![alert-05_05_three-sources-same-process.png](alert-05_05_three-sources-same-process.png)
+

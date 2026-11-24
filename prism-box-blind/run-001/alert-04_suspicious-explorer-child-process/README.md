@@ -32,3 +32,18 @@
 | # | Alert | Verdict | Confidence |
 |---|---|---|---|
 |004|Suspicious Explorer child Process|benign TP|80 %|
+
+## Evidence
+
+![alert-04_01_analyzer-cmd-children.png](alert-04_01_analyzer-cmd-children.png)
+
+![alert-04_02_analyzer-alert-199.png](alert-04_02_analyzer-alert-199.png)
+
+![alert-04_03_process-args.png](alert-04_03_process-args.png)
+
+![alert-04_04_process-args-netcheck-output.png](alert-04_04_process-args-netcheck-output.png)
+
+![alert-04_05_netzwerk-check-lnk.png](alert-04_05_netzwerk-check-lnk.png)
+
+![alert-04_06_netcheck-single-event.png](alert-04_06_netcheck-single-event.png)
+

@@ -23,3 +23,12 @@
 | # | Alert | Verdict | Confidence |
 |---|---|---|---|
 |003|Suspicious Explorer Child process|benign TP |75% |
+
+## Evidence
+
+![alert-03_01_duplicate-evidence.png](alert-03_01_duplicate-evidence.png)
+
+![alert-03_02_duplicate-evidence.png](alert-03_02_duplicate-evidence.png)
+
+![alert-03_03_datasets-sysmon-vs-defend.png](alert-03_03_datasets-sysmon-vs-defend.png)
+
