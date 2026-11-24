@@ -27,3 +27,4 @@ Number of alerts: 10
 |---|---|---|---|
 |Hunt 01|Encoded PowerShell without alert (pid 25040, 20:11)|Inconclusive (timebox)|[hunt-01_encoded-powershell](hunt-01_encoded-powershell/README.md)|
 |Hunt 02|Manual 7z backup without alert (pid 25936, 20:18)|Benign · 80%|[hunt-02_7z-backup](hunt-02_7z-backup/README.md)|
+|Hunt 03|API events on system processes and .tmp files (20:11–20:42)|No verdict (inconclusive)|[hunt-03_api-events-tmp-files](hunt-03_api-events-tmp-files/README.md)|
