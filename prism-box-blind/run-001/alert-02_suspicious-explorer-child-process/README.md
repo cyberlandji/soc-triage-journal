@@ -20,3 +20,16 @@
 | # | Alert | Verdict | Confidence |
 |---|---|---|---|
 |002|Suspicious Explorer Child Process|Benign True Positv| 75%|
+
+## Evidence
+
+![alert-02_01_analyzer-certutil.png](alert-02_01_analyzer-certutil.png)
+
+![alert-02_02_analyzer-certutil.png](alert-02_02_analyzer-certutil.png)
+
+![alert-02_03_rule-eql-query.png](alert-02_03_rule-eql-query.png)
+
+![alert-02_04_cmd-start-parent-args.png](alert-02_04_cmd-start-parent-args.png)
+
+![alert-02_05_cmd-start-parent-args.png](alert-02_05_cmd-start-parent-args.png)
+
