@@ -26,3 +26,4 @@ Number of alerts: 10
 | # | Lead | Result | Report |
 |---|---|---|---|
 |Hunt 01|Encoded PowerShell without alert (pid 25040, 20:11)|Inconclusive (timebox)|[hunt-01_encoded-powershell](hunt-01_encoded-powershell/README.md)|
+|Hunt 02|Manual 7z backup without alert (pid 25936, 20:18)|Benign · 80%|[hunt-02_7z-backup](hunt-02_7z-backup/README.md)|
